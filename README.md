@@ -209,6 +209,18 @@ Comparison between two environments:
 ---
 
 
+## Phase 6 — Advanced executive dashboards
+
+### LAB 19 — CIO Technology Health Dashboard
+
+- overall availability;
+- risks;
+- capacity;
+- incidents;
+- costs;
+- trends;
+- critical services.
+
 
 
 
