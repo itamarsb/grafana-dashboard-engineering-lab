@@ -84,6 +84,20 @@ Comparison between two environments:
 ---
 
 
+## Phase 3 — APIs and applications
+
+## LAB 07 — REST API and JSON Dashboard
+
+- Public or custom API;
+- Infinity;
+- authentication;
+- JSON transformation;
+- handling missing data;
+- external indicators.
+
+
+
+
 
 
 
