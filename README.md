@@ -1,7 +1,65 @@
 # grafana-dashboard-engineering-lab
 Hands-on lab for engineering operational, technical, executive, and customer-facing Grafana dashboards using Prometheus, OpenTelemetry, APIs, SQL databases, exporters, and multiple data sources.
 
+---
 
+```mermaid
+flowchart TB
+    subgraph Sources["Data Sources"]
+        NE["Node Exporter"]
+        SNMP["SNMP Exporter"]
+        API["REST / JSON APIs"]
+        CE["Custom Exporters"]
+        PG["PostgreSQL"]
+        ORA["Oracle Database"]
+        MYSQL["MySQL"]
+        MSSQL["Microsoft SQL Server"]
+        LOGS["Application and System Logs"]
+        OTELAPP["OpenTelemetry Instrumented Applications"]
+    end
+
+    subgraph Collection["Collection and Processing"]
+        PROM["Prometheus"]
+        OTEL["OpenTelemetry Collector"]
+        LOKI["Loki"]
+        TEMPO["Tempo"]
+        ALLOY["Grafana Alloy"]
+        INFINITY["Infinity Data Source"]
+    end
+
+    subgraph Visualization["Visualization and Analysis"]
+        GRAFANA["Grafana"]
+        OPS["Operational Dashboards"]
+        TECH["Technical Management Dashboards"]
+        EXEC["Executive and Customer Dashboards"]
+    end
+
+    NE --> PROM
+    SNMP --> PROM
+    CE --> PROM
+    OTELAPP --> OTEL
+    OTEL --> PROM
+    OTEL --> LOKI
+    OTEL --> TEMPO
+    LOGS --> LOKI
+    API --> INFINITY
+
+    PG --> GRAFANA
+    ORA --> GRAFANA
+    MYSQL --> GRAFANA
+    MSSQL --> GRAFANA
+
+    PROM --> GRAFANA
+    LOKI --> GRAFANA
+    TEMPO --> GRAFANA
+    ALLOY --> GRAFANA
+    INFINITY --> GRAFANA
+
+    GRAFANA --> OPS
+    GRAFANA --> TECH
+    GRAFANA --> EXEC
+
+```
 
 ---
 
