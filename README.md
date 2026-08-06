@@ -244,7 +244,15 @@ In this lab, we will take a different approach by building a deliberately simple
 - recommendations.
 
 
+## LAB 22 — Executive Benchmark Dashboard
 
+- two environments side-by-side;
+- performance;
+- cost;
+- resilience;
+- consumption;
+- security;
+- executive recommendation.
 
 
 
