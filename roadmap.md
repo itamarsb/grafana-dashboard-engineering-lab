@@ -319,6 +319,18 @@ Grafana currently offers Observability as Code workflows, file-based provisionin
 Transformations allow you to combine, reorganize, and calculate results after the data is returned by the sources.
 
 
+## LAB 29 — Annotations and Operational Context
+
+- deployments;
+- incidents;
+- maintenance activities;
+- configuration changes;
+- periods of unavailability;
+- business events.
+
+Annotations allow you to mark events directly on time series, helping to correlate changes and incidents with metric behavior.
+
+
 
 
 
