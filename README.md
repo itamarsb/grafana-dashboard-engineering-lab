@@ -184,6 +184,14 @@ Comparison between two environments:
 - bottleneck identification.
 
 
+## LAB 17 — Unified Observability Dashboard
+
+- Prometheus;
+- Loki;
+- Tempo;
+- OpenTelemetry;
+- Grafana;
+- correlated metrics, logs, and traces.
 
 
 
