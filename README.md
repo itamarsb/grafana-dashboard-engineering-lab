@@ -68,6 +68,38 @@ grafana-dashboard-engineering-lab/
 ```
 
 
+---
+
+
+## Internal structure of each laboratory
+
+Each laboratory will operate as an independent project. An example follows below:
+
+```markdown
+
+labs/02-linux-infrastructure-dashboard/
+├── README.md
+├── images/
+├── dashboards/
+│   └── linux-infrastructure-dashboard.json
+├── provisioning/
+│   ├── dashboards.yml
+│   └── datasources.yml
+├── prometheus/
+│   └── prometheus.yml
+├── queries/
+│   └── promql-examples.md
+├── alerting/
+│   └── alert-rules.yml
+├── scripts/
+│   └── generate-load.sh
+└── docker-compose.yml
+
+```
+
+
+
+
 
 ---
 
