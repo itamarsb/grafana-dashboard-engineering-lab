@@ -232,6 +232,20 @@ Comparison between two environments:
 - executive summary.
 
 
+## LAB 21 — Board-Level Technology Dashboard
+
+In this lab, we will take a different approach by building a deliberately simple dashboard:
+
+- five to eight indicators;
+- non-technical language;
+- risks;
+- impact;
+- trend;
+- recommendations.
+
+
+
+
 
 
 
