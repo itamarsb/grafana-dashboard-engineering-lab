@@ -295,6 +295,18 @@ Grafana currently offers Observability as Code workflows, file-based provisionin
 - GitHub Actions.
 
 
+# LAB 27 — Variables and Reusable Dashboards
+
+- query variables;
+- custom variables;
+- interval variables;
+- chained variables;
+- repeated panels;
+- repeated rows;
+- selection of environment, region, server, and service.
+
+
+
 
 
 
