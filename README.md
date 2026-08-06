@@ -148,7 +148,11 @@ Comparison between two environments:
 - operational indicators.
 
 
+## LAB 13 — Microsoft SQL Server Dashboard
 
+- business data;
+- departmental indicators;
+- direct integration.
 
 
 
