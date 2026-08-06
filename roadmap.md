@@ -395,6 +395,17 @@ Grafana Alerting allows you to create rules based on metrics and logs from vario
 - load time.
 
 
+### LAB 35 — Dashboard Quality Assurance
+
+- visual validation;
+- variable testing;
+- testing for periods without data;
+- time zone testing;
+- threshold testing;
+- permissions testing;
+- link testing;
+- target audience review.
+
 
 
 
