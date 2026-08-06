@@ -222,6 +222,15 @@ Comparison between two environments:
 - critical services.
 
 
+### LAB 20 — Customer-Facing Service Dashboard
+
+- SLA;
+- performance;
+- availability;
+- significant incidents;
+- monthly trends;
+- executive summary.
+
 
 
 
