@@ -71,6 +71,18 @@ Using the same data from LAB 02, but transformed into:
 - available capacity.
 
 
+### LAB 06 — Infrastructure Comparison Dashboard
+
+Comparison between two environments:
+
+- legacy vs. modern;
+- on-premises vs. cloud;
+- centralized vs. distributed architecture;
+- before vs. after.
+
+
+---
+
 
 
 
