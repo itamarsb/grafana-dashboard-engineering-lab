@@ -123,7 +123,6 @@ Comparison between two environments:
 - technical view and executive view.
 
 
-
 ---
 
 
@@ -153,6 +152,16 @@ Comparison between two environments:
 - business data;
 - departmental indicators;
 - direct integration.
+
+
+### LAB 14 — Oracle Dashboard Integration
+
+- Oracle integration;
+- plugin specifics;
+- licensing limitations;
+- API or exporter alternative.
+
+
 
 
 
