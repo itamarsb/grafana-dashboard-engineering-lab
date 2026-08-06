@@ -162,6 +162,23 @@ Comparison between two environments:
 - API or exporter alternative.
 
 
+---
+
+
+## Phase 5 — Full observability
+
+### LAB 15 — Logs with Loki
+
+- application logs;
+- infrastructure logs;
+- filters;
+- correlation with metrics.
+
+
+
+
+
+
 
 
 
