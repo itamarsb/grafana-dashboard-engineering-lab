@@ -86,7 +86,7 @@ Comparison between two environments:
 
 ## Phase 3 — APIs and applications
 
-## LAB 07 — REST API and JSON Dashboard
+### LAB 07 — REST API and JSON Dashboard
 
 - Public or custom API;
 - Infinity;
@@ -106,7 +106,12 @@ Comparison between two environments:
 - most used endpoints.
 
 
+### LAB 09 — Custom Prometheus Exporter
 
+- Python exporter;
+- custom metrics;
+- integration with Prometheus;
+- visualization in Grafana.
 
 
 
