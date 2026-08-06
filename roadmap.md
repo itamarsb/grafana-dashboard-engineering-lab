@@ -265,7 +265,7 @@ In this lab, we will take a different approach by building a deliberately simple
 - rollback.
 
 
-## LAB 24 — Dashboard Provisioning
+### LAB 24 — Dashboard Provisioning
 
 - `dashboards.yml` files;
 - data source provisioning;
@@ -274,7 +274,7 @@ In this lab, we will take a different approach by building a deliberately simple
 - automatic updates.
 
 
-## LAB 25 — Grafana Git Sync
+### LAB 25 — Grafana Git Sync
 
 - Git synchronization;
 - branches;
@@ -285,7 +285,7 @@ In this lab, we will take a different approach by building a deliberately simple
 Grafana currently offers Observability as Code workflows, file-based provisioning, and Git Sync, enabling you to store dashboards in repositories and utilize version control and pull requests.
 
 
-## LAB 26 — CI/CD Dashboard
+### LAB 26 — CI/CD Dashboard
 
 - JSON validation;
 - linting;
@@ -295,7 +295,7 @@ Grafana currently offers Observability as Code workflows, file-based provisionin
 - GitHub Actions.
 
 
-## LAB 27 — Variables and Reusable Dashboards
+### LAB 27 — Variables and Reusable Dashboards
 
 - query variables;
 - custom variables;
@@ -306,7 +306,7 @@ Grafana currently offers Observability as Code workflows, file-based provisionin
 - selection of environment, region, server, and service.
 
 
-## LAB 28 — Transformations and Multi-Source Dashboards
+### LAB 28 — Transformations and Multi-Source Dashboards
 
 - join;
 - merge;
@@ -319,7 +319,7 @@ Grafana currently offers Observability as Code workflows, file-based provisionin
 Transformations allow you to combine, reorganize, and calculate results after the data is returned by the sources.
 
 
-## LAB 29 — Annotations and Operational Context
+### LAB 29 — Annotations and Operational Context
 
 - deployments;
 - incidents;
@@ -331,7 +331,7 @@ Transformations allow you to combine, reorganize, and calculate results after th
 Annotations allow you to mark events directly on time series, helping to correlate changes and incidents with metric behavior.
 
 
-## LAB 30 — Dashboard Navigation and Drill-Down
+### LAB 30 — Dashboard Navigation and Drill-Down
 
 - dashboard links;
 - data links;
@@ -341,6 +341,25 @@ Annotations allow you to mark events directly on time series, helping to correla
 - passing time ranges and variables.
 
 Grafana allows you to preserve the time range and variables when navigating between dashboards, which is important for creating an integrated operational experience.
+
+
+---
+
+
+## Phase 8 — Alerting and Operational Response
+
+### LAB 31 — Grafana Alerting Fundamentals
+
+- alert rules;
+- evaluation groups;
+- contact points;
+- notification policies;
+- labels;
+- annotations;
+- Normal, Pending and Firing states.
+
+
+
 
 
 
