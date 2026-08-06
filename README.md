@@ -3,6 +3,9 @@ Hands-on lab for engineering operational, technical, executive, and customer-fac
 
 ---
 
+## Architecture
+
+
 ```mermaid
 flowchart TB
     subgraph Sources["Data Sources"]
