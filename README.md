@@ -59,6 +59,18 @@ Using the same data from LAB 02, but transformed into:
 - capacity.
 
 
+### LAB 05 — Smart PDU and Energy Dashboard
+
+- consumption;
+- power;
+- demand;
+- energy density;
+- efficiency;
+- anomalies;
+- estimated cost;
+- available capacity.
+
+
 
 
 
