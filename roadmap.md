@@ -331,7 +331,16 @@ Transformations allow you to combine, reorganize, and calculate results after th
 Annotations allow you to mark events directly on time series, helping to correlate changes and incidents with metric behavior.
 
 
+## LAB 30 — Dashboard Navigation and Drill-Down
 
+- dashboard links;
+- data links;
+- links to logs;
+- links to traces;
+- links to runbooks;
+- passing time ranges and variables.
+
+Grafana allows you to preserve the time range and variables when navigating between dashboards, which is important for creating an integrated operational experience.
 
 
 
