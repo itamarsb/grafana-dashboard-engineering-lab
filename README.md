@@ -3,6 +3,27 @@ Hands-on lab for engineering operational, technical, executive, and customer-fac
 
 ---
 
+## Roadmap
+
+## Phase 1 — Dashboard Engineering Fundamentals
+
+### LAB 01 — Grafana Dashboard Design Fundamentals
+
+- visual hierarchy;
+- panel selection;
+- units;
+- thresholds;
+- variables;
+- information organization;
+- common errors;
+- operational vs. executive dashboards.
+
+
+
+
+
+---
+
 ## Architecture
 
 
