@@ -31,6 +31,16 @@ Hands-on lab for engineering operational, technical, executive, and customer-fac
 - capacity.
 
 
+### LAB 03 — Executive Infrastructure Dashboard
+
+Using the same data from LAB 02, but transformed into:
+
+- overall health index;
+- capacity trend;
+- risks;
+- availability;
+- key exceptions;
+- executive summary.
 
 
 
