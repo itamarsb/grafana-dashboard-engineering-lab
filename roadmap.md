@@ -359,6 +359,16 @@ Grafana allows you to preserve the time range and variables when navigating betw
 - Normal, Pending and Firing states.
 
 
+### LAB 32 — Multi-Dimensional Alerting
+
+- server-based alerting;
+- endpoint-based alerting;
+- client-based alerting;
+- grouping;
+- deduplication;
+- noise reduction.
+
+
 
 
 
