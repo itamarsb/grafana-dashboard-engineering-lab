@@ -43,6 +43,27 @@ Using the same data from LAB 02, but transformed into:
 - executive summary.
 
 
+---
+
+
+## Phase 2 — Networks, devices, and infrastructure
+
+### LAB 04 — SNMP Network Dashboard
+
+- devices;
+- interfaces;
+- utilization;
+- errors;
+- availability;
+- latency;
+- capacity.
+
+
+
+
+
+
+
 
 
 ---
