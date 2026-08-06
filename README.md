@@ -138,7 +138,7 @@ Comparison between two environments:
 - comparisons.
 
 
-## LAB 12 — MySQL or MariaDB Dashboard
+### LAB 12 — MySQL or MariaDB Dashboard
 
 - relational source;
 - queries;
@@ -147,7 +147,7 @@ Comparison between two environments:
 - operational indicators.
 
 
-## LAB 13 — Microsoft SQL Server Dashboard
+### LAB 13 — Microsoft SQL Server Dashboard
 
 - business data;
 - departmental indicators;
@@ -175,7 +175,7 @@ Comparison between two environments:
 - correlation with metrics.
 
 
-## LAB 16 — Distributed Tracing with Tempo
+### LAB 16 — Distributed Tracing with Tempo
 
 - traces;
 - services;
@@ -184,7 +184,7 @@ Comparison between two environments:
 - bottleneck identification.
 
 
-## LAB 17 — Unified Observability Dashboard
+### LAB 17 — Unified Observability Dashboard
 
 - Prometheus;
 - Loki;
@@ -194,7 +194,7 @@ Comparison between two environments:
 - correlated metrics, logs, and traces.
 
 
-## LAB 18 — SLI, SLO, and SLA Dashboard
+### LAB 18 — SLI, SLO, and SLA Dashboard
 
 - availability;
 - latency;
@@ -232,7 +232,7 @@ Comparison between two environments:
 - executive summary.
 
 
-## LAB 21 — Board-Level Technology Dashboard
+### LAB 21 — Board-Level Technology Dashboard
 
 In this lab, we will take a different approach by building a deliberately simple dashboard:
 
@@ -244,7 +244,7 @@ In this lab, we will take a different approach by building a deliberately simple
 - recommendations.
 
 
-## LAB 22 — Executive Benchmark Dashboard
+### LAB 22 — Executive Benchmark Dashboard
 
 - two environments side-by-side;
 - performance;
