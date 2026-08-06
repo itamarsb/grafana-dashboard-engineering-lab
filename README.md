@@ -175,6 +175,15 @@ Comparison between two environments:
 - correlation with metrics.
 
 
+## LAB 16 — Distributed Tracing with Tempo
+
+- traces;
+- services;
+- dependencies;
+- latency;
+- bottleneck identification.
+
+
 
 
 
