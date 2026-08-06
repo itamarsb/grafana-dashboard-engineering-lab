@@ -274,6 +274,21 @@ In this lab, we will take a different approach by building a deliberately simple
 - automatic updates.
 
 
+## LAB 25 — Grafana Git Sync
+
+- Git synchronization;
+- branches;
+- pull requests;
+- history;
+- approval workflow.
+
+Grafana currently offers Observability as Code workflows, file-based provisioning, and Git Sync, enabling you to store dashboards in repositories and utilize version control and pull requests.
+
+
+
+
+
+
 
 
 
