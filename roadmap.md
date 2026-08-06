@@ -265,6 +265,15 @@ In this lab, we will take a different approach by building a deliberately simple
 - rollback.
 
 
+## LAB 24 — Dashboard Provisioning
+
+- `dashboards.yml` files;
+- data source provisioning;
+- dashboard provisioning;
+- organization by folders;
+- automatic updates.
+
+
 
 
 
