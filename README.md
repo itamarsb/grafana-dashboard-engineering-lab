@@ -3,6 +3,75 @@ Hands-on lab for engineering operational, technical, executive, and customer-fac
 
 ---
 
+## Repository structure
+
+```markdown
+
+grafana-dashboard-engineering-lab/
+│
+├── README.md
+├── ROADMAP.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── dashboard-design-guidelines.md
+│   ├── dashboard-review-checklist.md
+│   ├── naming-conventions.md
+│   ├── visualization-selection-guide.md
+│   ├── executive-dashboard-principles.md
+│   └── repository-architecture.md
+│
+├── templates/
+│   ├── lab-readme-template.md
+│   ├── dashboard-requirements-template.md
+│   ├── dashboard-review-template.md
+│   └── executive-summary-template.md
+│
+├── shared/
+│   ├── provisioning/
+│   ├── datasources/
+│   ├── dashboards/
+│   ├── sample-data/
+│   └── scripts/
+│
+├── labs/
+│   ├── 01-grafana-dashboard-design-fundamentals/
+│   │   ├── README.md
+│   │   ├── images/
+│   │   │   ├── dashboard-overview.png
+│   │   │   ├── panel-comparison.png
+│   │   │   └── final-dashboard.png
+│   │   ├── dashboards/
+│   │   │   └── dashboard.json
+│   │   ├── provisioning/
+│   │   │   ├── dashboards.yml
+│   │   │   └── datasources.yml
+│   │   ├── queries/
+│   │   ├── sample-data/
+│   │   ├── scripts/
+│   │   └── docker-compose.yml
+│   │
+│   ├── 02-linux-infrastructure-dashboard/
+│   │   └── ...
+│   │
+│   └── 22-executive-benchmark-dashboard/
+│       └── ...
+│
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    ├── pull_request_template.md
+    └── workflows/
+        ├── validate-dashboard-json.yml
+        └── markdown-lint.yml
+
+```
+
+
+
+---
+
+
 ## Roadmap
 
 ## Phase 1 — Dashboard Engineering Fundamentals
