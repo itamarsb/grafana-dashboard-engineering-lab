@@ -127,6 +127,19 @@ Comparison between two environments:
 ---
 
 
+## Phase 4 — Databases and business indicators
+
+### LAB 11 — PostgreSQL Business Dashboard
+
+- sales, operations, or customer service;
+- SQL queries;
+- indicators by period;
+- targets;
+- trends;
+- comparisons.
+
+
+
 
 
 
