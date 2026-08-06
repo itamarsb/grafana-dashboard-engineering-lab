@@ -96,6 +96,17 @@ Comparison between two environments:
 - external indicators.
 
 
+### LAB 08 — FastAPI Application Dashboard
+
+- requests;
+- P50/P95/P99 latency;
+- errors;
+- throughput;
+- availability;
+- most used endpoints.
+
+
+
 
 
 
