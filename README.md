@@ -19,6 +19,19 @@ Hands-on lab for engineering operational, technical, executive, and customer-fac
 - operational vs. executive dashboards.
 
 
+### LAB 02 — Linux Infrastructure Dashboard
+
+- Node Exporter;
+- Prometheus;
+- CPU;
+- memory;
+- disk;
+- network;
+- availability;
+- capacity.
+
+
+
 
 
 
