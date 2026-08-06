@@ -139,6 +139,15 @@ Comparison between two environments:
 - comparisons.
 
 
+## LAB 12 — MySQL or MariaDB Dashboard
+
+- relational source;
+- queries;
+- variables;
+- filters;
+- operational indicators.
+
+
 
 
 
