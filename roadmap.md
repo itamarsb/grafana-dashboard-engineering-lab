@@ -369,6 +369,18 @@ Grafana allows you to preserve the time range and variables when navigating betw
 - noise reduction.
 
 
+## LAB 33 — Alert Dashboard and Incident Overview
+
+- active alerts;
+- duration;
+- severity;
+- affected service;
+- person responsible;
+- trend;
+- history.
+
+Grafana Alerting allows you to create rules based on metrics and logs from various sources, organize notifications, and track the operational response.
+
 
 
 
