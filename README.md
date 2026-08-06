@@ -194,6 +194,21 @@ Comparison between two environments:
 - correlated metrics, logs, and traces.
 
 
+## LAB 18 — SLI, SLO, and SLA Dashboard
+
+- availability;
+- latency;
+- error rate;
+- error budget;
+- objective attainment;
+- technical view;
+- contractual view;
+- executive view.
+
+
+---
+
+
 
 
 
