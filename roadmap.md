@@ -250,3 +250,23 @@ In this lab, we will take a different approach by building a deliberately simple
 - executive recommendation.
 
 
+---
+
+
+## Phase 7 — Dashboard Lifecycle and Automation
+
+### LAB 23 — Dashboard JSON and Version Control
+
+- export and import;
+- JSON structure;
+- version control;
+- version comparison;
+- change review;
+- rollback.
+
+
+
+
+
+
+
