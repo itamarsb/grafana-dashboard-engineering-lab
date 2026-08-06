@@ -114,6 +114,18 @@ Comparison between two environments:
 - visualization in Grafana.
 
 
+### LAB 10 — OpenTelemetry Application Dashboard
+
+- metrics;
+- logs;
+- traces;
+- correlation between signals;
+- technical view and executive view.
+
+
+
+---
+
 
 
 
