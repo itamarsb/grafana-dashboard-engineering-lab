@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/images/grafana_lab_overview_11_27_36.png">
+    <img src="docs/images/EN_grafana_lab_overview_11_27_36.png">
 </p>
 
 
