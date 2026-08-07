@@ -1,3 +1,9 @@
+<p align="center">
+    <img src="docs/images/grafana_lab_overview_11_27_36.png">
+</p>
+
+
+
 # grafana-dashboard-engineering-lab
 Hands-on lab for engineering operational, technical, executive, and customer-facing Grafana dashboards using Prometheus, OpenTelemetry, APIs, SQL databases, exporters, and multiple data sources.
 
