@@ -1,1 +1,30 @@
+name: Markdown Lint
 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+
+jobs:
+  markdown-lint:
+    name: Validate Markdown
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: |
+            **/*.md
+            #node_modules
