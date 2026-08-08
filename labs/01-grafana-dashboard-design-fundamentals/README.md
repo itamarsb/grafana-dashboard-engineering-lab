@@ -305,6 +305,9 @@ The result should end with:
 grafana-dashboard-engineering-lab
 ```
 
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_03.jpg)
+
+
 ---
 
 ## 5.4 Navigate to Lab 01
