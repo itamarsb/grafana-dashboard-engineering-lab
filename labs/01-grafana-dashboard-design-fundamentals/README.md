@@ -203,6 +203,10 @@ docker compose version
 
 If both commands return their installed versions, the environment is ready for the next step.
 
+
+![GrafanaLAB01](labs/01-grafana-dashboard-design-fundamentals/images/Grafana_LAB01_Clipboard_08-08-2026_01.jpg)
+
+
 ---
 
 # 5. Starting the Laboratory Environment
