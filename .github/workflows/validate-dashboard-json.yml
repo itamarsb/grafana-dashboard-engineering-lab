@@ -1,1 +1,44 @@
+name: Validate Grafana Dashboard JSON
 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.json"
+
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**/*.json"
+
+jobs:
+  validate-json:
+    name: Validate JSON Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON syntax
+        shell: bash
+        run: |
+          set -e
+
+          echo "Searching for JSON files..."
+
+          files=$(find . -type f -name "*.json" -not -path "./.git/*")
+
+          if [ -z "$files" ]; then
+            echo "No JSON files found."
+            exit 0
+          fi
+
+          for file in $files; do
+            echo "Validating: $file"
+            python -m json.tool "$file" > /dev/null
+          done
+
+          echo "All JSON files are valid."
