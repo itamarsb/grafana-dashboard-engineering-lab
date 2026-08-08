@@ -17,7 +17,7 @@ Hands-on lab for engineering operational, technical, executive, and customer-fac
 grafana-dashboard-engineering-lab/
 │
 ├── README.md
-├── ROADMAP.md
+├── roadmap.md
 ├── LICENSE
 ├── .gitignore
 │
