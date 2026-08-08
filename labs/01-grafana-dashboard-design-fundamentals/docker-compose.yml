@@ -1,1 +1,22 @@
+services:
 
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana-lab-01
+
+    ports:
+      - "3000:3000"
+
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      - ./provisioning:/etc/grafana/provisioning
+      - ./dashboards:/var/lib/grafana/dashboards
+
+    restart: unless-stopped
+
+volumes:
+  grafana-storage:
