@@ -211,31 +211,402 @@ If both commands return their installed versions, the environment is ready for t
 
 # 5. Starting the Laboratory Environment
 
-Open a terminal inside:
+In this section, we will start the Grafana environment using the integrated terminal in Visual Studio Code.
+
+The commands below assume that:
+
+- Docker Desktop is installed
+- Docker Desktop is running
+- The repository has already been cloned to your computer
+- The repository is opened in Visual Studio Code
+
+---
+
+## 5.1 Open the Repository in Visual Studio Code
+
+First, open **Visual Studio Code**.
+
+Then open the cloned repository:
 
 ```text
-labs/01-grafana-dashboard-design-fundamentals/
+grafana-dashboard-engineering-lab
 ```
 
-Start the environment with:
+You can do this through:
 
-```bash
-docker compose up -d
+```text
+File → Open Folder
 ```
 
-Check the running containers:
+and select the local directory where the repository was cloned.
 
-```bash
-docker compose ps
+After opening the repository, the VS Code Explorer should display a structure similar to:
+
+```text
+grafana-dashboard-engineering-lab/
+│
+├── .github/
+├── docs/
+├── labs/
+├── shared/
+├── templates/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── roadmap.md
 ```
 
-Once Grafana is running, open the local Grafana interface in your browser.
+---
 
-The exact configuration used by this laboratory is defined in:
+## 5.2 Open the VS Code Terminal
+
+Inside Visual Studio Code, open the integrated terminal:
+
+```text
+Terminal → New Terminal
+```
+
+You can also use the keyboard shortcut:
+
+```text
+Ctrl + `
+```
+
+A PowerShell terminal should appear at the bottom of VS Code when running on Windows.
+
+---
+
+## 5.3 Navigate to the Repository
+
+If the terminal did not automatically open inside the repository directory, navigate to the location where the repository was cloned.
+
+For example:
+
+```powershell
+cd "C:\path\to\grafana-dashboard-engineering-lab"
+```
+
+Replace the example path with the actual location of the repository on your computer.
+
+You can confirm the current directory with:
+
+```powershell
+Get-Location
+```
+
+The result should end with:
+
+```text
+grafana-dashboard-engineering-lab
+```
+
+---
+
+## 5.4 Navigate to Lab 01
+
+From the repository root directory, enter the Lab 01 directory:
+
+```powershell
+cd labs/01-grafana-dashboard-design-fundamentals
+```
+
+Confirm the current directory again:
+
+```powershell
+Get-Location
+```
+
+The path should now end with:
+
+```text
+grafana-dashboard-engineering-lab\labs\01-grafana-dashboard-design-fundamentals
+```
+
+You can also list the files in the directory:
+
+```powershell
+Get-ChildItem
+```
+
+or simply:
+
+```powershell
+dir
+```
+
+You should see files and directories such as:
+
+```text
+dashboards/
+images/
+provisioning/
+queries/
+sample-data/
+scripts/
+README.md
+docker-compose.yml
+```
+
+The important file for the next step is:
 
 ```text
 docker-compose.yml
 ```
+
+---
+
+## 5.5 Verify Docker
+
+Before starting the laboratory, verify that Docker is available.
+
+Run:
+
+```powershell
+docker --version
+```
+
+A successful result should display the installed Docker version.
+
+For example:
+
+```text
+Docker version XX.XX.X
+```
+
+Now verify Docker Compose:
+
+```powershell
+docker compose version
+```
+
+A successful result should display something similar to:
+
+```text
+Docker Compose version vX.XX.X
+```
+
+> **Important:** Docker Desktop must be running before continuing.
+
+If either command returns an error, do not continue with the laboratory until Docker is working correctly.
+
+---
+
+## 5.6 Understand What Docker Compose Will Do
+
+The file:
+
+```text
+docker-compose.yml
+```
+
+describes the containers and configuration required by this laboratory.
+
+Instead of installing and configuring every component manually, Docker Compose allows us to start the laboratory environment using a single command.
+
+The basic workflow is:
+
+```text
+VS Code
+   │
+   ▼
+Integrated Terminal
+   │
+   ▼
+docker-compose.yml
+   │
+   ▼
+Docker Desktop
+   │
+   ▼
+Grafana Container
+   │
+   ▼
+Grafana Web Interface
+```
+
+This makes the laboratory easier to reproduce on another computer.
+
+---
+
+## 5.7 Start the Laboratory
+
+Make sure the terminal is still inside:
+
+```text
+labs/01-grafana-dashboard-design-fundamentals
+```
+
+Then execute:
+
+```powershell
+docker compose up -d
+```
+
+The `docker compose up` command creates and starts the services defined in `docker-compose.yml`.
+
+The option:
+
+```text
+-d
+```
+
+means **detached mode**.
+
+This allows the containers to continue running in the background while the terminal remains available for other commands.
+
+Docker may need to download container images the first time the laboratory is executed.
+
+Therefore, the first startup can take longer than subsequent executions.
+
+---
+
+## 5.8 Check the Running Containers
+
+After Docker Compose finishes, verify the environment:
+
+```powershell
+docker compose ps
+```
+
+This command displays the containers associated with the laboratory.
+
+Look at the `STATUS` column.
+
+The Grafana container should appear as running.
+
+You can also check all running Docker containers with:
+
+```powershell
+docker ps
+```
+
+---
+
+## 5.9 Access Grafana
+
+Once the Grafana container is running, open your web browser.
+
+Access:
+
+```text
+http://localhost:3000
+```
+
+You should now see the Grafana login page.
+
+`localhost` means that Grafana is running on your own computer.
+
+The number:
+
+```text
+3000
+```
+
+is the local TCP port being used to access the Grafana web interface.
+
+The connection can therefore be represented as:
+
+```text
+Browser
+   │
+   │ http://localhost:3000
+   ▼
+Windows Host
+   │
+   │ Port 3000
+   ▼
+Docker
+   │
+   ▼
+Grafana Container
+   │
+   ▼
+Grafana Web Interface
+```
+
+---
+
+## 5.10 If Grafana Does Not Open
+
+If the Grafana page does not appear, first verify the containers again:
+
+```powershell
+docker compose ps
+```
+
+Then check the container logs:
+
+```powershell
+docker compose logs
+```
+
+To follow the logs in real time:
+
+```powershell
+docker compose logs -f
+```
+
+Press:
+
+```text
+Ctrl + C
+```
+
+to stop following the logs.
+
+This does **not** stop the Grafana container.
+
+---
+
+## 5.11 Stopping the Laboratory
+
+When you finish working with the laboratory, you can stop and remove its containers with:
+
+```powershell
+docker compose down
+```
+
+To start the laboratory again later:
+
+```powershell
+docker compose up -d
+```
+
+This creates a simple workflow:
+
+```text
+Start Lab
+   │
+   ▼
+docker compose up -d
+   │
+   ▼
+Work with Grafana
+   │
+   ▼
+docker compose down
+   │
+   ▼
+Lab Stopped
+```
+
+---
+
+## Checkpoint
+
+Before continuing to the next section, confirm that:
+
+- [ ] The repository is open in Visual Studio Code
+- [ ] The VS Code integrated terminal is working
+- [ ] The terminal is inside `01-grafana-dashboard-design-fundamentals`
+- [ ] `docker --version` works
+- [ ] `docker compose version` works
+- [ ] `docker compose up -d` completes successfully
+- [ ] `docker compose ps` shows the Grafana container running
+- [ ] `http://localhost:3000` opens in the browser
+
+Once all items are complete, the local Grafana environment is ready.
 
 ---
 
