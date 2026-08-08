@@ -400,6 +400,10 @@ Docker Compose version vX.XX.X
 
 If either command returns an error, do not continue with the laboratory until Docker is working correctly.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_05.jpg)
+
+
 ---
 
 ## 5.6 Understand What Docker Compose Will Do
