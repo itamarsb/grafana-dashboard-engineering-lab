@@ -361,6 +361,9 @@ The important file for the next step is:
 docker-compose.yml
 ```
 
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_04.jpg)
+
+
 ---
 
 ## 5.5 Verify Docker
