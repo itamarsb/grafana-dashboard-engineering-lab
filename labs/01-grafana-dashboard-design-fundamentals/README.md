@@ -257,6 +257,10 @@ grafana-dashboard-engineering-lab/
 └── roadmap.md
 ```
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_02.jpg)
+
+
 ---
 
 ## 5.2 Open the VS Code Terminal
