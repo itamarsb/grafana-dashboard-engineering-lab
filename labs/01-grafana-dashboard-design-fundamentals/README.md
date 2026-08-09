@@ -441,6 +441,10 @@ Grafana Web Interface
 
 This makes the laboratory easier to reproduce on another computer.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_06.jpg)
+
+
 ---
 
 ## 5.7 Start the Laboratory
