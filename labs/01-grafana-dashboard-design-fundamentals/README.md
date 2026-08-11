@@ -878,6 +878,10 @@ A time series allows us to answer questions such as:
 
 This is one of the reasons time-based visualization is fundamental in monitoring environments.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_17.jpg)
+
+
 ---
 
 # 13. Choosing the Correct Visualization
