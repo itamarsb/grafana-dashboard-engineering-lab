@@ -1090,6 +1090,10 @@ Storing dashboard definitions in Git provides history, reproducibility, reviewab
 
 Later laboratories will expand this concept using Grafana provisioning.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_21.jpg)
+
+
 ---
 
 # 19. Evidence and Documentation
