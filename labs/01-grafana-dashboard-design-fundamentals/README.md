@@ -700,20 +700,26 @@ For this introductory lab, we will keep the data source intentionally simple so 
 
 ---
 
-# 8. Creating the First Dashboard
+## 8. Creating the First Dashboard
 
 Inside Grafana:
 
 1. Open **Dashboards**
-2. Select **New**
+2. Click **New**
 3. Select **New dashboard**
-4. **Add visualization**: Click `+`.
+4. In the **Add** panel on the right, under **Panel**, click the **+** button to add a new panel
 
-Grafana will ask which data source should be used.
+> **Note:** In newer versions of Grafana, the previous **Add visualization**
+> option has been replaced by the **Panel (+)** button in the dashboard editor.
 
-After selecting the data source, the panel editor will open.
+Grafana will then open the panel editor, where the data source and visualization
+can be configured.
 
 This editor is one of the most important interfaces in Grafana.
+
+
+
+
 
 ---
 
