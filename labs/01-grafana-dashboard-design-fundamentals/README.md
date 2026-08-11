@@ -839,6 +839,10 @@ Maximum: 100
 
 Later laboratories will use real infrastructure metrics to populate these panels.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_16.jpg)
+
+
 ---
 
 # 12. Creating a Time Series
