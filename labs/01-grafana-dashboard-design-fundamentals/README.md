@@ -503,6 +503,10 @@ You can also check all running Docker containers with:
 docker ps
 ```
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_08.jpg)
+
+
 ---
 
 ## 5.9 Access Grafana
