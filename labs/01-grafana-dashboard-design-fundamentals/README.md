@@ -718,7 +718,7 @@ can be configured.
 This editor is one of the most important interfaces in Grafana.
 
 
-
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_13.jpg)
 
 
 ---
