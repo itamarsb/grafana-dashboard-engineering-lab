@@ -805,6 +805,10 @@ Test
 
 A dashboard should communicate clearly without requiring the user to understand the underlying query.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_15.jpg)
+
+
 ---
 
 # 11. Creating a Gauge
