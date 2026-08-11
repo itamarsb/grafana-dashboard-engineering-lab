@@ -625,6 +625,10 @@ docker compose down
 Lab Stopped
 ```
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_11.jpg)
+
+
 ---
 
 ## Checkpoint
