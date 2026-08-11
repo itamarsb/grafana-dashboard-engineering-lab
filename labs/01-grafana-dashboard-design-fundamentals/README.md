@@ -1023,6 +1023,10 @@ Introductory dashboard demonstrating fundamental Grafana
 visualization and dashboard design concepts.
 ```
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_19.jpg)
+
+
 ---
 
 # 17. Exporting the Dashboard
