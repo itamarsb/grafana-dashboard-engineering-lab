@@ -551,6 +551,10 @@ Grafana Container
 Grafana Web Interface
 ```
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_09.jpg)
+
+
 ---
 
 ## 5.10 If Grafana Does Not Open
