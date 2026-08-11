@@ -669,6 +669,10 @@ Important areas include:
 
 We will use these sections progressively throughout the repository.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_12.jpg)
+
+
 ---
 
 # 7. Understanding Data Sources
