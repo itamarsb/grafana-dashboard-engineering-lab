@@ -1056,6 +1056,10 @@ grafana-dashboard-design-fundamentals.json
 
 The repository then contains both the documentation and the actual dashboard implementation.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_20.jpg)
+
+
 ---
 
 # 18. Dashboard as Code
