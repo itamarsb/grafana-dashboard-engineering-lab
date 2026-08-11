@@ -635,14 +635,14 @@ Lab Stopped
 
 Before continuing to the next section, confirm that:
 
-- [ ] The repository is open in Visual Studio Code
-- [ ] The VS Code integrated terminal is working
-- [ ] The terminal is inside `01-grafana-dashboard-design-fundamentals`
-- [ ] `docker --version` works
-- [ ] `docker compose version` works
-- [ ] `docker compose up -d` completes successfully
-- [ ] `docker compose ps` shows the Grafana container running
-- [ ] `http://localhost:3000` opens in the browser
+- [X] The repository is open in Visual Studio Code
+- [X] The VS Code integrated terminal is working
+- [X] The terminal is inside `01-grafana-dashboard-design-fundamentals`
+- [X] `docker --version` works
+- [X] `docker compose version` works
+- [X] `docker compose up -d` completes successfully
+- [X] `docker compose ps` shows the Grafana container running
+- [X] `http://localhost:3000` opens in the browser
 
 Once all items are complete, the local Grafana environment is ready.
 
