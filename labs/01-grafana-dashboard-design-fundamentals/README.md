@@ -759,6 +759,10 @@ A technically correct query can still produce a poor dashboard if the visualizat
 
 Dashboard engineering therefore requires both technical and visual decisions.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_14.jpg)
+
+
 ---
 
 # 10. Creating a Stat Panel
