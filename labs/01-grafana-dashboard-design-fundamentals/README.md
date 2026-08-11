@@ -477,6 +477,10 @@ Docker may need to download container images the first time the laboratory is ex
 
 Therefore, the first startup can take longer than subsequent executions.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_07.jpg)
+
+
 ---
 
 ## 5.8 Check the Running Containers
