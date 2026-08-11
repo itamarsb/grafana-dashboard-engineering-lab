@@ -905,6 +905,10 @@ The first question should always be:
 
 Only after answering that question should the visualization be selected.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_18.jpg)
+
+
 ---
 
 # 14. Dashboard Layout
