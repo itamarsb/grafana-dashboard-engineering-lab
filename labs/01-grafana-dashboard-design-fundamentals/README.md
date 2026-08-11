@@ -707,7 +707,7 @@ Inside Grafana:
 1. Open **Dashboards**
 2. Select **New**
 3. Select **New dashboard**
-4. **Add visualization**: `+`.
+4. **Add visualization**: Click `+`.
 
 Grafana will ask which data source should be used.
 
