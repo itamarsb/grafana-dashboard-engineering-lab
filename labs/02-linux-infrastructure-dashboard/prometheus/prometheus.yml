@@ -1,1 +1,160 @@
+# ============================================================
+# LAB 02 - Linux Infrastructure Dashboard
+# Prometheus Configuration
+# ============================================================
+#
+# This file configures Prometheus to collect infrastructure
+# metrics from a Linux host running Prometheus Node Exporter.
+#
+# Monitoring flow:
+#
+# Linux Host
+#     |
+#     | System metrics
+#     v
+# Node Exporter
+#     |
+#     | HTTP :9100/metrics
+#     v
+# Prometheus
+#     |
+#     | PromQL
+#     v
+# Grafana
+#
+# ============================================================
 
+
+# ------------------------------------------------------------
+# GLOBAL CONFIGURATION
+# ------------------------------------------------------------
+#
+# The "global" section defines default settings used by
+# Prometheus when scraping monitoring targets.
+#
+global:
+
+  # How often Prometheus collects metrics from configured
+  # targets.
+  #
+  # Example:
+  # Every 15 seconds Prometheus will contact Node Exporter
+  # and retrieve the current Linux infrastructure metrics.
+  scrape_interval: 15s
+
+  # Defines how often Prometheus evaluates recording rules
+  # and alerting rules.
+  #
+  # We are not using custom rules during the first stages
+  # of this laboratory, but keeping this configuration here
+  # prepares the environment for later improvements.
+  evaluation_interval: 15s
+
+
+# ------------------------------------------------------------
+# SCRAPE CONFIGURATION
+# ------------------------------------------------------------
+#
+# "scrape_configs" defines which applications or exporters
+# Prometheus should monitor.
+#
+# Each entry represents a monitoring job.
+#
+scrape_configs:
+
+
+  # ==========================================================
+  # PROMETHEUS SELF-MONITORING
+  # ==========================================================
+  #
+  # Prometheus exposes its own internal metrics.
+  #
+  # By monitoring itself, Prometheus allows us to inspect:
+  #
+  # - number of collected samples;
+  # - query activity;
+  # - target health;
+  # - memory usage;
+  # - internal Prometheus performance.
+  #
+  - job_name: "prometheus"
+
+    # "static_configs" defines targets manually.
+    #
+    # Prometheus normally listens on TCP port 9090.
+    static_configs:
+
+      - targets:
+          - "localhost:9090"
+
+
+  # ==========================================================
+  # NODE EXPORTER - LINUX HOST
+  # ==========================================================
+  #
+  # Node Exporter collects operating system and hardware
+  # metrics from Linux.
+  #
+  # Examples of collected metrics:
+  #
+  # - CPU utilization;
+  # - system load;
+  # - RAM usage;
+  # - swap usage;
+  # - filesystem utilization;
+  # - disk I/O;
+  # - network traffic;
+  # - process statistics;
+  # - system uptime;
+  # - kernel information.
+  #
+  - job_name: "node-exporter"
+
+    # Prometheus will request metrics from Node Exporter
+    # every 15 seconds, according to the global
+    # "scrape_interval".
+    #
+    # Node Exporter uses port 9100 by default.
+    static_configs:
+
+      - targets:
+
+          # --------------------------------------------------
+          # OPTION 1 - Node Exporter running on the SAME host
+          # --------------------------------------------------
+          #
+          # Use this address when Prometheus and Node Exporter
+          # are installed directly on the same Linux machine.
+          #
+          - "localhost:9100"
+
+
+        # ----------------------------------------------------
+        # CUSTOM LABELS
+        # ----------------------------------------------------
+        #
+        # Labels allow us to add contextual information to
+        # the metrics collected from this target.
+        #
+        # These labels can later be used inside PromQL and
+        # Grafana.
+        #
+        # Example:
+        #
+        #   environment="lab"
+        #
+        # allows queries such as:
+        #
+        #   up{environment="lab"}
+        #
+        labels:
+
+          # Identifies that this server belongs to the
+          # laboratory environment.
+          environment: "lab"
+
+          # Logical identification of the monitored server.
+          #
+          # Later, if additional Linux hosts are added,
+          # each one may receive a different hostname label.
+          hostname: "linux-lab-01"
