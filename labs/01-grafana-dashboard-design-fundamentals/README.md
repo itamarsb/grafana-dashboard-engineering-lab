@@ -587,6 +587,10 @@ to stop following the logs.
 
 This does **not** stop the Grafana container.
 
+
+![GrafanaLAB01](images/Grafana_LAB01_Clipboard_08-08-2026_10.jpg)
+
+
 ---
 
 ## 5.11 Stopping the Laboratory
