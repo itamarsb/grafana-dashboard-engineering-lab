@@ -59,11 +59,20 @@ grafana-dashboard-engineering-lab/
 │   │   ├── scripts/
 │   │   └── docker-compose.yml
 │   │
-│   ├── 02-linux-infrastructure-dashboard/
-│   │   └── ...
-│   │
-│   └── 22-executive-benchmark-dashboard/
-│       └── ...
+│   └── 02-linux-infrastructure-dashboard/
+│       ├── README.md
+|       │
+|       ├── images/
+|       |   └── .gitkeep
+|       │
+|       ├── dashboards/
+|       │   └── linux-infrastructure-dashboard.json
+|       │
+|       ├── prometheus/
+|       │   └── prometheus.yml
+|       │
+|       └── queries/
+|           └── promql.md
 │
 └── .github/
     ├── ISSUE_TEMPLATE/
